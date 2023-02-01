@@ -1,9 +1,9 @@
-name: Build and Deploy Java Test Application
+name: Build and Deploy Java Application
 
 on:
   push:
     branches: [ "main" ]
-
+    
 jobs:
   build:
     name: Cloud Run Deployment
